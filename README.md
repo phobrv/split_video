@@ -9,19 +9,36 @@ Công cụ cắt video thành các block 5 giây sử dụng Python.
 
 ## Cài đặt
 
-### Cách nhanh (macOS):
+### Cách nhanh:
 
-**Với bash/zsh:**
+**Trên macOS:**
+
+Với bash/zsh:
 ```bash
 chmod +x setup_macos.sh
 ./setup_macos.sh
 ```
 
-**Với fish shell:**
+Với fish shell:
 ```fish
 chmod +x setup_macos_fish.sh
 ./setup_macos_fish.sh
 ```
+
+**Trên Windows:**
+
+Sử dụng PowerShell (khuyến nghị):
+```powershell
+# Mở PowerShell với quyền Administrator
+.\setup_windows.ps1 -InstallChocolatey -InstallFFmpeg
+```
+
+Sử dụng Command Prompt:
+```cmd
+setup_windows.bat
+```
+
+**Xem chi tiết hướng dẫn cho Windows:** [README_Windows.md](README_Windows.md)
 
 ### Cài đặt thủ công:
 
